@@ -1,6 +1,7 @@
 version: 2.1
 orbs:
   aws-cli: circleci/aws-cli@2.1.0
+  slack: circleci/slack@4.10.1
 
 commands:
   # destroy-environment:
@@ -127,7 +128,7 @@ jobs:
             cd frontend
             npm update
             npm i
-            
+            npm audit fix --audit-level=critical --force
             npm audit --audit-level=critical
       
 
@@ -148,7 +149,8 @@ jobs:
             cd backend
             npm update
             npm i
-            
+            npm audit fix --audit-level=critical --force
+            npm audit fix --audit-level=critical --force
             npm audit --audit-level=critical
 
 #   deploy-infrastructure:
