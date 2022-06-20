@@ -1,3 +1,8 @@
-S3: udapeople-28a30e9.s3.amazonaws.com
+S3 Static Website:
+http://udapeople-0baa03b.s3-website-us-east-1.amazonaws.com
 
-CloudFront: dsv61jl6f0lau.cloudfront.net
+CloudFront:
+udapeople-0baa03b.s3-website-us-east-1.amazonaws.com
+
+Healthy Backend:
+http://54.146.134.58:3030/api/status
