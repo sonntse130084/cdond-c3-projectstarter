@@ -1,0 +1,3 @@
+S3: udapeople-28a30e9.s3.amazonaws.com
+
+CloudFront: dsv61jl6f0lau.cloudfront.net
